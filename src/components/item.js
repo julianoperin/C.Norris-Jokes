@@ -6,10 +6,9 @@ const item = ({ jokes }) => {
     <ul>
       {jokes.map((item) => {
         return (
-          <li key={item.id}>
+          <li className="item-li" key={item.id}>
             <img src={item.icon_url} alt="icon" />
             <span>{item.value} </span>
-            <a>{item.url} </a>
           </li>
         );
       })}

@@ -66,3 +66,31 @@ h2 {
 }
 
 /* ! CATEGORIES */
+.box-category {
+  min-height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-category select {
+  text-transform: capitalize;
+}
+
+.single-joke {
+  font-family: monospace;
+  width: 90%;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.title-single-joke {
+  text-align: center;
+  margin: 1rem;
+}
+
+.item-li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
