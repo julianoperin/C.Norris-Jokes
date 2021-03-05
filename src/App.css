@@ -18,12 +18,14 @@ h1 {
 }
 
 input,
-button {
+button,
+select {
   width: 300px;
   border: 2px solid gray;
   padding: 6px 10px;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
+  margin-left: 1rem;
 }
 
 button {
@@ -62,3 +64,5 @@ h2 {
 .home img {
   pointer-events: none;
 }
+
+/* ! CATEGORIES */
